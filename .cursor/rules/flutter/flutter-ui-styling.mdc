@@ -1,0 +1,25 @@
+---
+alwaysApply: false
+---
+# UI and Styling
+- Use Flutter's built-in widgets and create custom widgets.
+- Implement responsive design using LayoutBuilder or MediaQuery.
+- Use themes for consistent styling across the app.
+- Use Theme.of(context).textTheme.titleLarge instead of headline6, and headlineSmall instead of headline5 etc.
+- Do not use deprecated functionalities, e.g. 'withOpacity' is deprecated and shouldn't be used
+
+# Widgets and UI Components
+- Create small, private widget classes instead of methods like Widget _build....
+- Implement RefreshIndicator for pull-to-refresh functionality.
+- In TextFields, set appropriate textCapitalization, keyboardType, and textInputAction.
+- Always include an errorBuilder when using Image.network.
+
+# UI/Styling Guidelines
+- Follow Material 3 design system with proper ColorScheme.
+- Use consistent typography with proper scaling.
+- Implement responsive layouts with proper breakpoints.
+- Ensure WCAG AA compliance for accessibility.
+- Follow consistent animation patterns and curves.
+- Maintain consistent component styling (padding, elevation).
+- Support both light and dark themes.
+- Handle proper error and loading states.

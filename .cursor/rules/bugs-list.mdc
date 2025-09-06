@@ -1,0 +1,124 @@
+---
+description: Guidelines for managing known bugs in markdown files.
+globs:
+ - "**/known_bugs.md"
+ - "**/bugs.md"
+alwaysApply: false
+---
+
+# Bug List Management
+
+Guidelines for creating and managing lists of known bugs in markdown files.
+
+## Bug List Creation & Format
+
+1. Create bug lists in a markdown file (e.g., `docs/known_bugs.md`).
+2. Use the following structure:
+
+   ```markdown
+   # Known Bugs
+
+   A list of known issues, their status, and relevant details.
+
+   ## Active Bugs (Investigating / To Be Fixed)
+
+   Bugs currently present in the application that are being investigated or are scheduled for fixing.
+
+   ### [Short Bug Title - e.g., Login Button Unresponsive] (Priority: High/Medium/Low)
+   - **Severity:** Critical/High/Medium/Low/Trivial
+   - **Description:** A clear, concise description of the problem.
+   - **Steps to Reproduce:**
+       1. Go to '...'
+       2. Click on '....'
+       3. Scroll down to '....'
+       4. See error
+   - **Expected Behavior:** What should have happened.
+   - **Actual Behavior:** What actually happened.
+   - **Screenshots/Logs:** (Optional: Link or brief description)
+   - **Environment:** (Optional: e.g., iOS 15.5, Android 12, Web Chrome)
+   - **Reported:** YYYY-MM-DD
+   - **Status:** Investigating / Confirmed / Fixing
+   - **Assigned To:** (Optional: Developer Name)
+   - **Notes:** (Optional: Any investigation details, potential causes, workaround)
+   - **Relevant Files:** (Optional: List files related to the bug) `path/to/relevant/file.dart`
+
+   --- (Use horizontal rules to separate individual bugs)
+
+   ## Fixed Bugs
+
+   Bugs that have been resolved.
+
+   ### [Fixed Bug Title] (Fixed in vX.Y.Z / Commit SHA)
+   - **Description:** Brief description of the resolved bug.
+   - **Resolution:** Brief description of how it was fixed.
+   - **Fixed:** YYYY-MM-DD
+   - **Relevant Files:** (Optional: List files related to the fix) `path/to/fixed/file.dart`
+
+   ---
+
+   ## Won't Fix / Deferred
+
+   Issues that will not be addressed, or are deferred to a later time.
+
+   ### [Issue Title]
+   - **Description:** Description of the issue.
+   - **Reason for Not Fixing/Deferring:** Clear explanation (e.g., low impact, intended behavior, depends on future feature).
+   - **Reported:** YYYY-MM-DD
+
+   ---
+   ```
+
+## Bug List Maintenance
+
+1.  Update the bug list as issues are reported, investigated, fixed, or deferred.
+2.  Fill in relevant fields for each bug.
+3.  Move bugs between sections (`Active Bugs`, `Fixed Bugs`, `Won't Fix / Deferred`) as their status changes.
+4.  Keep the `Relevant Files` section updated with paths related to the bug or its fix.
+
+## AI Instructions
+
+When working with bug lists, the AI should:
+
+1.  Adhere strictly to the defined format when adding or modifying bug entries.
+2.  Add new bugs to the appropriate section (usually `Active Bugs`).
+3.  Update the `Status` field and other relevant details as information becomes available.
+4.  Move bugs to the `Fixed Bugs` section when confirmed fixed, adding resolution details and the date/version if known.
+5.  Move bugs to `Won't Fix / Deferred` section when instructed, ensuring a reason is provided.
+6.  Populate the `Relevant Files` field when code locations related to the bug or fix are identified.
+
+## Example Bug Status Update
+
+When updating a bug from "Active" to "Fixed":
+
+**Before:**
+
+```markdown
+## Active Bugs (Investigating / To Be Fixed)
+
+### [Login Button Unresponsive] (Priority: High)
+- **Severity:** Critical
+- **Description:** The login button does not respond on the first tap.
+- ...
+- **Status:** Fixing
+- **Relevant Files:** `lib/features/auth/presentation/widgets/login_button.dart`
+
+---
+```
+
+**After:**
+
+```markdown
+## Active Bugs (Investigating / To Be Fixed)
+
+---
+
+## Fixed Bugs
+
+### [Login Button Unresponsive] (Fixed in v1.2.1 / abc1234)
+- **Description:** The login button did not respond on the first tap.
+- **Resolution:** Corrected the gesture detector handler.
+- **Fixed:** YYYY-MM-DD
+- **Relevant Files:** `lib/features/auth/presentation/widgets/login_button.dart`
+
+---
+```

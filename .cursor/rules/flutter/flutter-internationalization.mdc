@@ -1,0 +1,11 @@
+---
+alwaysApply: false
+---
+# Localization and Internationalization
+- Use Flutter's built-in localization
+- Use context.l10n for all translatable strings.
+- Follow ICU syntax for plurals and complex messages.
+- Use intl package for date and number formatting.
+- Test all supported locales and RTL layouts.
+- Organize translation files consistently.
+- Provide localized error messages.

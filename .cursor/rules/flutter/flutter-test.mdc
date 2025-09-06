@@ -1,0 +1,15 @@
+---
+alwaysApply: false
+---
+# Testing: 
+- Bloc_test and Mocktail for testing
+- Use Mocktail for all mocks in tests.
+- Implement proper Bloc testing with bloc_test.
+- Write unit tests for all business logic with 90%+ coverage.
+- Implement widget tests with golden_toolkit for critical UI components.
+- Use Mocktail for mocking with proper registration patterns.
+- Test all Bloc/Cubit states including error and loading states.
+- Implement integration tests for main user flows.
+- Test accessibility and internationalization.
+- Follow arrange-act-assert pattern in all tests.
+- Test performance metrics for critical screens.

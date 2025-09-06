@@ -1,0 +1,13 @@
+---
+alwaysApply: false
+---
+# Documentation
+- Document complex logic and non-obvious code decisions.
+- Follow official Flutter and Bloc documentation for best practices.
+- Document all public APIs with dartdoc comments.
+- Maintain architecture decision records (ADRs) for major decisions.
+- Create per-feature documentation in docs/features/.
+- Document widget hierarchy and theming guidelines.
+- Include test coverage reports and patterns.
+- Document state management and navigation flows.
+- Keep API documentation updated with examples.
