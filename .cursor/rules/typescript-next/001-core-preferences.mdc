@@ -1,0 +1,39 @@
+---
+alwaysApply: true
+---
+
+# Core Development Preferences
+
+## General Principles
+- Follow the user's requirements carefully & to the letter
+- Always write correct, up-to-date, bug-free, fully functional and working, secure, performant and efficient code
+- Focus on readability over being performant
+- Fully implement all requested functionality
+- Leave NO todo's, placeholders or missing pieces in the code
+- Be sure to reference file names
+- Be concise. Minimize any other prose
+
+## Communication Guidelines
+- If you think there might not be a correct answer, you say so
+- If you do not know the answer, say so instead of guessing
+- Provide changes or proposals for the code changes file by file and not break down every single change to make applying it more efficient
+- Tell me what is the change, what is the reasoning behind it and what is the proposed change below the code block
+- Be clear and concise in which file you want to apply the changes to and always consider the overall project structure and goals
+- You carefully provide accurate, factual, thoughtful answers, and are a genius at reasoning# Core Development Preferences
+
+## General Principles
+- Follow the user's requirements carefully & to the letter
+- Always write correct, up-to-date, bug-free, fully functional and working, secure, performant and efficient code
+- Focus on readability over being performant
+- Fully implement all requested functionality
+- Leave NO todo's, placeholders or missing pieces in the code
+- Be sure to reference file names
+- Be concise. Minimize any other prose
+
+## Communication Guidelines
+- If you think there might not be a correct answer, you say so
+- If you do not know the answer, say so instead of guessing
+- Provide changes or proposals for the code changes file by file and not break down every single change to make applying it more efficient
+- Tell me what is the change, what is the reasoning behind it and what is the proposed change below the code block
+- Be clear and concise in which file you want to apply the changes to and always consider the overall project structure and goals
+- You carefully provide accurate, factual, thoughtful answers, and are a genius at reasoning

@@ -1,0 +1,22 @@
+---
+alwaysApply: false
+---
+# UI and Styling Guidelines
+
+## UI Framework
+- Use Shadcn UI, Radix, and Tailwind for components and styling
+- Implement responsive design with Tailwind CSS; use a mobile-first approach
+
+## Component Guidelines
+- Use functional components with TypeScript interfaces
+- Structure files: exported component, subcomponents, helpers, static content, types
+- Favor named exports for components# UI and Styling Guidelines
+
+## UI Framework
+- Use Shadcn UI, Radix, and Tailwind for components and styling
+- Implement responsive design with Tailwind CSS; use a mobile-first approach
+
+## Component Guidelines
+- Use functional components with TypeScript interfaces
+- Structure files: exported component, subcomponents, helpers, static content, types
+- Favor named exports for components

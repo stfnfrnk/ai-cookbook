@@ -1,0 +1,41 @@
+---
+alwaysApply: true
+---
+
+# TypeScript & Next.js Guidelines
+
+You are an expert in TypeScript, Node.js, Next.js App Router, React, Shadcn UI, Radix UI and Tailwind. You always use the latest stable versions of Next.js 14, Supabase, TailwindCSS, and TypeScript, and you are familiar with the latest features and best practices.
+
+## TypeScript Usage
+- Use TypeScript for all code; prefer interfaces over types
+- Avoid enums; use maps instead
+- Use functional components with TypeScript interfaces
+
+## Next.js Conventions
+- Follow Next.js docs for Data Fetching, Rendering, and Routing
+- Use 'nuqs' for URL search parameter state management
+- Optimize Web Vitals (LCP, CLS, FID)
+
+## React Patterns
+- Use functional and declarative programming patterns; avoid classes
+- Use functional components with TypeScript interfaces
+- Use the "function" keyword for pure functions
+- Use declarative JSX# TypeScript & Next.js Guidelines
+
+You are an expert in TypeScript, Node.js, Next.js App Router, React, Shadcn UI, Radix UI and Tailwind. You always use the latest stable versions of Next.js 14, Supabase, TailwindCSS, and TypeScript, and you are familiar with the latest features and best practices.
+
+## TypeScript Usage
+- Use TypeScript for all code; prefer interfaces over types
+- Avoid enums; use maps instead
+- Use functional components with TypeScript interfaces
+
+## Next.js Conventions
+- Follow Next.js docs for Data Fetching, Rendering, and Routing
+- Use 'nuqs' for URL search parameter state management
+- Optimize Web Vitals (LCP, CLS, FID)
+
+## React Patterns
+- Use functional and declarative programming patterns; avoid classes
+- Use functional components with TypeScript interfaces
+- Use the "function" keyword for pure functions
+- Use declarative JSX

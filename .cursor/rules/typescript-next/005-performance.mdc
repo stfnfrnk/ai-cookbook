@@ -1,0 +1,39 @@
+---
+alwaysApply: true
+---
+
+# Performance Optimization
+
+## React Server Components
+- Minimize 'use client', 'useEffect', and 'setState'; favor React Server Components (RSC)
+- Wrap client components in Suspense with fallback
+- Use dynamic loading for non-critical components
+
+## Client Component Guidelines
+- Limit 'use client':
+  - Favor server components and Next.js SSR
+  - Use only for Web API access in small components
+  - Avoid for data fetching or state management
+
+## Image Optimization
+- Optimize images: use WebP format, include size data, implement lazy loading
+
+## Web Vitals
+- Optimize Web Vitals (LCP, CLS, FID)# Performance Optimization
+
+## React Server Components
+- Minimize 'use client', 'useEffect', and 'setState'; favor React Server Components (RSC)
+- Wrap client components in Suspense with fallback
+- Use dynamic loading for non-critical components
+
+## Client Component Guidelines
+- Limit 'use client':
+  - Favor server components and Next.js SSR
+  - Use only for Web API access in small components
+  - Avoid for data fetching or state management
+
+## Image Optimization
+- Optimize images: use WebP format, include size data, implement lazy loading
+
+## Web Vitals
+- Optimize Web Vitals (LCP, CLS, FID)

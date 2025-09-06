@@ -1,0 +1,33 @@
+---
+alwaysApply: true
+---
+
+# Code Style and Structure
+
+## Code Structure
+- Write concise, technical TypeScript code with accurate examples
+- Prefer iteration and modularization over code duplication
+- Use descriptive variable names with auxiliary verbs (e.g., isLoading, hasError)
+- Structure files: exported component, subcomponents, helpers, static content, types
+
+## Naming Conventions
+- Use lowercase with dashes for directories (e.g., components/auth-wizard)
+- Favor named exports for components
+
+## Syntax and Formatting
+- Avoid unnecessary curly braces in conditionals; use concise syntax for simple statements
+- No duplicate code; check if some logic is already written before writing it# Code Style and Structure
+
+## Code Structure
+- Write concise, technical TypeScript code with accurate examples
+- Prefer iteration and modularization over code duplication
+- Use descriptive variable names with auxiliary verbs (e.g., isLoading, hasError)
+- Structure files: exported component, subcomponents, helpers, static content, types
+
+## Naming Conventions
+- Use lowercase with dashes for directories (e.g., components/auth-wizard)
+- Favor named exports for components
+
+## Syntax and Formatting
+- Avoid unnecessary curly braces in conditionals; use concise syntax for simple statements
+- No duplicate code; check if some logic is already written before writing it
