@@ -1,0 +1,11 @@
+---
+alwaysApply: false
+---
+- Use `kebab-case` for all file names  
+- Prefer `function` over `const` for functions  
+- Use `Array<T>` over `T[]` for arrays  
+- Use idiomatic React  
+- Put components in `components` directory  
+- Reuse and compose components when possible  
+- Use `zod` for validation  
+- Use `camelCase` for schema names and add `Schema` suffix to all
