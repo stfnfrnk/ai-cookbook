@@ -1,11 +1,6 @@
 ---
-description: Guidelines for managing known bugs in markdown files.
-globs:
- - "**/known_bugs.md"
- - "**/bugs.md"
 alwaysApply: false
 ---
-
 # Bug List Management
 
 Guidelines for creating and managing lists of known bugs in markdown files.

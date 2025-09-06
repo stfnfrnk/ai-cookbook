@@ -1,11 +1,4 @@
 ---
-description: When the task is to create a new task list or roadmap or update an existing task list or roadmap
-globs: 
-alwaysApply: false
----
----
-description: 
-globs: 
 alwaysApply: false
 ---
 # Task List Management
